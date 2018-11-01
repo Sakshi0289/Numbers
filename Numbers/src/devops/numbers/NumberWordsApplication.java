@@ -19,8 +19,11 @@ public final class NumberWordsApplication {
 				System.out.print( "Enter number (0 to exit): " ) ;
 				String value = reader.readLine() ;
 				int number = Integer.parseInt( value ) ;
+				String word =numberWords.toWords(number);
+				System.out.println("The conversion from number to word is: " +word);
+				
 			} catch ( NumberFormatException | IOException e ) {
-				System.out.println( "Invalid number" ) ;
+				System.out.println( "The input entered is not a number or is a special character" ) ;
 			}
 		}
 	}

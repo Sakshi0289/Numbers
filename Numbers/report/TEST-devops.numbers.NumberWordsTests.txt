@@ -1,0 +1,8 @@
+Testsuite: devops.numbers.NumberWordsTests
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec
+
+Testcase: numberOutOfRange took 0.002 sec
+	Caused an ERROR
+Forked Java VM exited abnormally. Please note the time in the report does not reflect the time until the VM exit.
+junit.framework.AssertionFailedError: Forked Java VM exited abnormally. Please note the time in the report does not reflect the time until the VM exit.
+
